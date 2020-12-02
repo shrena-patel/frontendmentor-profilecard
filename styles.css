@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    background: #1BA1AD;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 390px;
+    width: 350px;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+}
+
+.header-img {
+    border-radius: 15px 15px 0 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid white;
+    top: 90px;
+    left: 125px;
+    position: absolute;
+}
+
+.top-circle {
+    position: absolute;
+    bottom: 35%;
+    right: 50%;
+}
+
+.bottom-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.user-stats {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.user-name {
+    margin-top: 5em;
+    font-size: 15px;
+}
+
+span,
+h4, 
+h6 {
+    color: grey;
+    font-weight: 300;
+}
+
+span {
+    margin-left: 0.25em;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h4 {
+    margin-top: 1em;
+    padding-bottom: 2em;
+}
+
+h6 {
+    padding-top: 0.5em;
+    letter-spacing: 1.4px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgb(230, 230, 230);
+    width: 100%;
+    padding-top: 0.5em;
+}
+
